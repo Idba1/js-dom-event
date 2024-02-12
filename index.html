@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>js-dom-event</title>
 </head>
+
 <body>
     <header>
 
@@ -13,10 +15,21 @@
         <h1 onclick="console.log('i am clicked')">DOM er ajke secial event</h1>
         <button title="This is a tool tip" onclick="console.log(7)">Click Me</button>
         <button onclick="console.log(65)">Another Button</button>
+        <br>
+        <button onclick="document.body.style.backgroundColor='Yellow'">Make Yellow</button>
+        <!-- Option : 2 -->
+        <button onclick="makeRed()">Make Red</button>
+        <!-- Option : 3 -->
+        <button id="make-blue">Make Blue</button>
+        <button id="make-purple">Make Purple</button>
     </main>
     <footer>
 
     </footer>
+    <script>
+        
+    </script>
     <script src="js/event.js"></script>
 </body>
+
 </html>
