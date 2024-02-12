@@ -5,6 +5,7 @@
 // <button onclick="console.log(65)">Another Button</button>
 
 // option:2 add on click
+// IMPORTENT : we will use this
 // <button onclick="makeRed()">Make Red</button>
 function makeRed() {
     document.body.style.backgroundColor = 'red';
@@ -44,7 +45,16 @@ function makePink() {
 
 
 // Option : 4 Another
+// <button id="make-green">Make Green</button>
 const makeGreenButton = document.getElementById('make-green');
 makeGreenButton.addEventListener('click', function makeGreen(){
     document.body.style.backgroundColor='green';
 });
+
+
+// Option : 4 Final
+// IMPORTENT : we will use this sometime
+// <button id="make-goldenrod">Make goldenRod</button>
+document.getElementById('make-goldenrod').addEventListener('click', function(){
+    document.body.style.backgroundColor='goldenrod'
+})
